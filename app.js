@@ -16,7 +16,7 @@ app.set('view engine', 'handlebars');
 
 
 //This code is used to connect mongoose to our MONGODB in the Cloud
-const DBURL= "mongodb+srv://kbest:web322_c2019!@cluster0-z6oiq.mongodb.net/testApp?retryWrites=true&w=majority";
+const DBURL= "mongodb+srv://kbest:web322_c2019!@cluster0-agoxt.mongodb.net/taskApp?retryWrites=true&w=majority";
 mongoose.connect(DBURL, {useNewUrlParser: true})
 //The then block will only be executed if the above-mentioned line is successful
 .then(()=>{
